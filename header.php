@@ -52,4 +52,40 @@
                 </div>
             </div>
         </div>
+        <div class="header-mobile" style="display: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-6 col-sm-6">
+                        <div class="logo">
+                            <a href="">
+                                <img src="https://sanbong.tv/wp-content/uploads/2021/06/i-logo.png" class="img-fluid logo-1" alt="Logo pc">
+                                <img src="https://sanbong.tv/wp-content/uploads/2021/06/sb.png" class="img-fluid logo-2" alt="Logo mobile">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-6 col-sm-6 text-right">
+                        <div class="header">
+                            <a href="#menu"><i class="fa fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <nav id="menu">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Tìm kiếm">
+                        <button type="submit">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.25 19.25L15.5 15.5L19.25 19.25ZM4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z" stroke="#00AD68" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </li>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="" class="active">Kết quả trận đấu</a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Tỉ lệ cược</a></li>
+                    <li><a href="">Lịch thi đấu</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>

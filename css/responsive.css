@@ -1,442 +1,459 @@
-@media (max-width: 767px) {
-    header {display: none;}
-    .side-bar, .banner {display: none;}
-    .box-menu-top {
+
+@media (max-width: 1023px) {
+    .header-top {display: none;}
+    .link-ft {
+        display: none;
+    }
+    .header-mobile {
+        display: block !important;
+        background: #ffffff1f;
+        padding: 6px 0;
+    }
+
+    .header-mobile .logo a {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-mobile .logo a .logo-2 {
+        max-height: 15px;
+        margin-left: 7px;
+    }
+
+    .header-mobile .logo a .logo-1 {
+        max-height: 50px;
+    }
+
+    .header a {
+        color: #fff;
+        font-size: 21px;
+    }
+
+    nav#menu {
+        z-index: 1001;
         display: none;
     }
 
-
-    .title a {
-        display: none;
-    }
-
-    .title {
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    .title h2 {
-        font-size: 18px;
-    }
-
-    .list-prd .col-md-3, .list-prd .col-md-4 {
-        padding: 7px;
-    }
-
-    .list-prd .row {
-        margin: 0 -7px;
-    }
-
-    .item-prd .info h3 a {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.3;
-        margin-bottom: 5px;
-    }
-
-    .item-prd .info {
-        padding: 5px;
-    }
-
-    .prd-bott .prd-btn {
-        display: none;
-    }
-
-    .prd-bott .price {
-        flex: 0 0 100%;
-    }
-
-    .prd-bott .price span {
-        font-size: 16px;
-    }
-
-    .box-prd {
-        padding-bottom: 15px;
-    }
-
-    .title .tab-prd a {
+    nav#menu.mm-menu_opened {
         display: block;
-        text-transform: unset;
-        font-size: 14px;
     }
-
-    .tab-prd ul li {
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-
-    .tab-prd ul {
-        flex-wrap: wrap;
-    }
-
-    .tab-prd ul li:last-child {
-        margin-bottom: 0;
-    }
-
-    .content-form {
-        border-radius: 10px;
-        padding: 20px 15px;
-    }
-
-    .content-form h2 {
-        font-size: 25px;
-    }
-
-    .content-form .desc {
-        padding: 10px 0;
-    }
-
-    body {
-        font-size: 15px;
-    }
-
-    .list-form .inp_txt {
-    }
-
-    .list-form .inp_btn {
-        height: 40px;
-        font-size: 15px;
-    }
-
-    .box-form {
-        padding-bottom: 15px;
-    }
-
-    .box-commitment {
-        padding: 20px 0;
-        margin-bottom: 15px;
-    }
-
-    .item-comm {
-        height: auto;
-    }
-
-    .box-commitment .title h2 {
-        font-size: 18px;
-    }
-
-    .box-commitment .title {
-        margin-bottom: 15px;
-    }
-
-    .item-comm {
-        max-width: 290px;
+    li.mm-listitem input {
         width: 100%;
-        margin: 0 auto;
-    }
-
-    .list-comm .col-md-4 {
-        margin-bottom: 15px;
-    }
-
-    .list-comm .col-md-4:last-child {
-        margin-bottom: 0;
-    }
-    .tab-about ul {
-        width: 1200px;
-    }
-
-    .tab-about {
-        overflow: auto;
-    }
-    .breadcrumbs {
-        padding: 10px 0;
-    }
-
-    .content-cart table {
-        width: 960px !important;
-    }
-
-    .scr-mb {
-        overflow: auto;
-    }
-
-    .cart .side-bar {
-        display: block;
-        margin-top: 15px;
-    }
-
-    .cart-bar h4 {
-        font-size: 18px;
-    }
-    .filter-prd .col-md-6 {
-        margin-bottom: 15px;
-    }
-
-    .filter-prd .col-md-6:last-child {
-        margin-bottom: 0;
-    }
-
-    .filter-prd ul {
-        text-align: left;
-        width: 100%;
-    }
-    .item-hist .prd-hist a {
-        font-size: 18px;
-    }
-
-    .item-hist .price {
-        font-size: 16px;
-        margin-top: 2px;
-    }
-    .avarta-us {
-        display: none;
-    }
-
-    .box-user {
-        padding: 30px 0;
-    }
-    .title-user img {
-        max-height: 60px;
-    }
-    .form-user {
-        max-width: 100%;
-    }
-    .price-card ul {
-        display: block;
-        text-align: center;
-    }
-
-    .price-card ul li:last-child {
-        margin-top: 15px;
-    }
-    .avarta-prd {
-        margin-bottom: 20px;
-    }
-
-    .info-preview h1 {
-        font-size: 25px;
-        line-height: 1.5;
-    }
-
-    .info-preview .price label {font-size: 25px;}
-
-    .info-preview .desc {
-        font-weight: normal;
-        font-size: 14px;
-    }
-
-    .box-form-prd label {
-        font-size: 14px;
-        font-weight: normal;
-    }
-
-    .box-form-prd input {
-        font-size: 14px;
-    }
-
-    .preview-bott .quantity {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .preview-bott {
-        display: block;
-    }
-
-    .preview {
-        margin-bottom: 20px;
-    }
-
-    .tab-prd-detail a {
-        padding: 5px 15px;
-        font-size: 15px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 575px) {
-    .item-hist {
-        display: block;
-        text-align: left;
-        margin-bottom: 15px;
-    }
-
-    .item-hist .prd-hist a {
-        margin-bottom: 0;
-    }
-
-    .item-hist .right {
-        text-align: left;
-    }
-
-}
-
-@media (max-width: 767px) and (min-width: 576px) {
-    .item-comm {
-        background: transparent;
-        border: 1px solid #fff;
-        max-width: unset;
-        padding: 10px;
-        height: 100%;
-    }
-
-    .col-md-4.col-sm-4 {
-        margin-bottom: 0;
-    }
-    .filter-prd .col-md-6:last-child {
-        margin-bottom: 15px;
-    }
-}
-
-@media (max-width:  1023px) and (min-width: 768px) {
-    header {display: none;}
-    .banner {display: none;}
-    .box-menu-top {
-        display: none;
-    }
-
-    .title h2 {
-        font-size: 18px;
-    }
-
-    section.box-prd .row {
-        margin: 0 -7px;
-    }
-
-    .list-prd .col-md-3, .list-prd .col-md-4 {
-        padding: 7px;
-    }
-
-    .prd-bott .prd-btn {
-        display: none;
-    }
-
-    .prd-bott .price {
-        flex:  0 0 100%;
-    }
-
-    .tab-prd a {
-        font-size: 16px;
-    }
-
-    .content-form {
-        padding: 50px;
-    }
-
-    .item-comm {
-        background: transparent;
-        padding: 10px;
-        border: 1px solid #fff;
-        height: auto;
-    }
-    .list-srv .icon img {
-        max-width: 60px;
-    }
-
-    .list-srv .item-srv {
-        padding: 25px 15px;
-    }
-
-    .list-srv .col-md-4 {
-        padding-left: 30px;
-    }
-
-    .list-srv .icon {
-        left: -30px;
-        bottom: -30px;
-    }
-    .tab-about ul {
-        width: 1200px;
-    }
-
-    .tab-about {
-        overflow: auto;
-    }
-    .content-cart table {
-        width: 960px !important;
-    }
-
-    .scr-mb {
-        overflow: auto;
-    }
-
-    .cart .side-bar {
-        display: block;
-    }
-
-    .cart-bar h4 {
-        font-size: 18px;
-        padding: 10xp 0;
-    }
-
-    .cart-bar ul li {
+        height: 35px;
+        border: 1px solid #0e121b;
         font-size: 13px;
+        padding: 0 10px;
     }
 
-    .cart-bar {
-        padding: 0 10px 10px 10px;
+    li.mm-listitem button {
+        background: #0e121b;
+        border: 0;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
     }
 
-    .btn-process {
-        padding-top: 10px;
+    li.mm-listitem button path {
+        stroke: #fff;
     }
-
-    .btn-process a {
-        font-size: 12px;
-    }
-
-    .box-cate-bar .title-bar {
-        font-size: 12px;
-        text-align: center;
+    ul.slick-dots {
+        bottom: 15px;
         justify-content: center;
     }
 
-    .link-bar {
-        font-size: 12px;
+    .slick-arrow.next {
+        right: 10px;
     }
 
-    .link-bar li ul li {
-        padding-left: 15px;
+    .slick-arrow {
+        left: 10px;
     }
 
-    body {
-        font-size: 14px;
+}
+
+@media (max-width:  1250px) and (min-width: 1024px) {
+    ul.slick-dots {
+        bottom: 15px;
+        justify-content: center;
     }
 
-    .item-hist .prd-hist a {
-        font-size: 18px;
+    .slick-arrow.next {
+        right: 10px;
     }
 
-    .info-preview h1 {
-        font-size: 25px;
-    }
-
-    .info-preview .price label {
-        font-size: 25px;
-    }
-
-    .add-cart a {
-        font-size: 13px;
-    }
-
-    .box-form-prd {
-        font-size: 12px;
-    }
-
-    .tab-prd-detail a {
-        font-size: 15px;
+    .slick-arrow {
+        left: 10px;
     }
 }
 
-@media (max-width: 1199px) and (min-width: 1024px) {
-    body {
-        font-size: 15px;
+@media (max-width: 767px) {
+    .slide-banner .item img {
+        height: 200px;
+        object-fit: cover;
+    }
+    .box-slide-live {
+        max-width: 100%;
+        margin: 15px 0 25px 0;
+    }
+    .title h2 {
+        font-size: 19px;
     }
 
-    .box-menu-top a {
-        font-size: 14px;
+    .title {
+        margin-bottom: 20px;
+    }
+    .tab-res ul {
+        width: 1150px;
     }
 
-    .link-bar a {
-        font-size: 14px;
+    .tab-res {
+        overflow: auto;
     }
 
-    .prd-bott .prd-btn {
+    .content-tab {
+        width: 1150px;
+    }
+
+    .box-tab {
+        overflow: auto;
+    }
+
+    .item-news-home .avarta {
+        flex: 0 0 45%;
+        margin-right: 10px;
+    }
+
+    .item-news .avarta img {
+        height: 105px;
+    }
+
+    .date-top {
+        font-size: 10px;
+    }
+
+    .item-news .desc {
         display: none;
     }
 
-    .prd-bott .price {
-        flex: 0 0 100%;
+    .item-news-home .info h3 a {
+        padding-bottom: 0;
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .box-new-home .new-big .avarta svg {
+        opacity: 0;
+    }
+
+    .list-new-home {
+        margin-bottom: 40px;
+    }
+
+    .box-new-home .new-big .info {padding: 10px 0;pointer-events: unset;position: unset;}
+
+    .box-new-home .new-big .info a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .box-new-home .list-bar-small .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .box-new-home .list-bar-small .avarta svg {
+        opacity: 0;
+    }
+
+    .box-new-home .list-bar-small .info h3 a {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .item-libe .info {
+        padding: 7px;
+    }
+
+    .item-libe h3 a {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .new-bread h2 svg {
+        margin-right: 10px;
+        height: 26px;
+        width: 26px;
+    }
+
+    .new-bread h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .bread-right {
+        text-align: left;
+        width: 100%;
+    }
+
+    .bread-right ul {
+        justify-content: end;
+    }
+
+    .new-bread .col-md-6:first-child {
+        order: 2;
+    }
+
+    .new-bread .col-md-6:last-child {
+        order: 1;
+    }
+
+
+    .side-bar {
+        display: none;
+    }
+
+    .new-big .info {
+        pointer-events: unset;
+        position: unset;
+        padding: 10px 0 20px 0px;
+    }
+
+    .new-big .info h1 a {
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .new-top-right .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 7px;
+    }
+
+    .new-top-right .row {
+        margin: 0 -7px;
+    }
+
+    .new-top-right .date-top {
+        display: none;
+    }
+
+    .new-top-right .item .info {
+        padding-top: 0;
+    }
+
+    .new-top-right .item h3 a {
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .new-top-right .item .avarta img {
+        height: 113px;
+    }
+    .item-news .avarta {
+        flex: 0 0 45%;
+        margin-right: 10px;
+    }
+
+    .item-news .info h3 a {
+        padding-bottom: 0;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .info-auther ul {
+        display: block;
+    }
+
+    .info-auther {
+        padding-top: 10px;
+    }
+
+    .t-detail h1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .box-new-home .item-bar-small .avarta img {
+        height: 108px;
+    }
+
+    .box-info-result {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .counter-live .score {
+        margin-bottom: 15px;
+    }
+
+    .counter-live .num-score {
+        font-size: 30px;
+    }
+
+    .counter-live ul {
+        display: none;
+    }
+
+    .counter-live .i-top {
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .counter-live .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0;
+    }
+
+    .counter-live .i-top .icon img {
+        width: 50px;
+    }
+
+    .line-live {
+        display: none;
+    }
+
+    .counter-live .i-top:after {
+        display: none;
+    }
+
+    .counter-live {
+        margin-bottom: 30px;
+    }
+
+    .box-info-result .title h2 {
+        font-size: 16px;
+    }
+
+    .box-info-result .col-md-3 {
+        border: 0;
+    }
+    .box-new-live .row {
+        margin: 0 -7px;
+    }
+
+    .box-new-live .col-md-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .slide-banner .item img {
+        height: auto;
+    }   
+    .item-libe h3 a {
+        font-size: 12px;
+    }
+
+    .item-libe .top {
+        font-size: 10px;
+    }
+
+    .item-news .avarta img {height: auto;}
+
+    .item-news-home.item-news .avarta img {
+        height: auto;
+    }
+
+    .item-news .desc {
+        display: block;
+    }
+
+    .item-news .info h3 a {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .box-new-home .item-bar-small .avarta img {
+        height: auto;
+    }
+    .new-top-right .item .avarta img {
+        height: auto;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .item-comp .top .left {
+        display: flex;
+        padding-right: 10px;
+    }
+
+    .item-comp .top .left img {
+        width: 35px;
+    }
+
+    .tab-res ul {
+        width: 1200px;
+    }
+
+    .tab-res {
+        overflow: auto;
+    }
+
+    .box-tab {
+        overflow: auto;
+    }
+
+    .content-tab {
+        width: 1200px;
+    }
+
+    .item-news-home .avarta {
+        margin-right: 10px;
+    }
+
+    .date-top {
+        font-size: 10px;
+    }
+
+    .item-news .desc {
+        display: none;
+    }
+
+    .item-news-home .info h3 a {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .list-bar-small svg {
+        display: none;
+    }
+
+    .box-new-home .item-bar-small .avarta img {
+        height: auto;
+    }
+    .new-bread h2 {
+        font-size: 25px;
+    }
+    .new-big .info h1 a {
+        font-size: 18px;
+    }
+
+    .new-top-right .item .avarta img {
+        height: auto;
+    }
+
+    .new-top-right .item h3 a {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .item-bar-small .avarta img {
+        height: auto;
+    }
+    .bar-big .avarta img {
+        height: auto;
+    }
+    .t-detail h1 {
+        font-size: 22px;
+    }
+    .box-info-result .title h2 {
+        font-size: 16px;
     }
 }
